@@ -1,0 +1,4 @@
+-keep class com.garmin.fit.** { *; }
+-dontwarn com.garmin.fit.**
+-dontwarn java.awt.**
+-dontwarn javax.**

@@ -1,0 +1,4 @@
+plugins { id 'application' }
+repositories { mavenCentral() }
+dependencies { implementation 'org.mapsforge:mapsforge-map-reader:0.25.0' }
+application { mainClass = 'MapExtract' }
